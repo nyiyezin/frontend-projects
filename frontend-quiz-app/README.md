@@ -4,8 +4,7 @@ This is a solution to the [Frontend Quiz App](https://www.frontendmentor.io/chal
 
 ## Links
 
-- [Solution URL]()
-- [Live Site]()
+- [Live Site](https://nyz-frontend-quiz-app.netlify.app/)
 
 ## Features
 

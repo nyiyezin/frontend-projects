@@ -7,3 +7,6 @@ This repository is dedicated to practicing and completing frontend-related proje
 ### Result Summary Component
 - **[Solution URL](https://github.com/nyiyezin/frontend-projects/tree/trunk/result-summary-component)**
 - **[Live Site](https://nyz-result-summary-component.netlify.app/)**
+### Frontend Quiz App
+- **[Solution URL](https://github.com/nyiyezin/frontend-projects/tree/trunk/frontend-quiz-app)**
+- **[Live Site](https://nyz-frontend-quiz-app.netlify.app/)**
