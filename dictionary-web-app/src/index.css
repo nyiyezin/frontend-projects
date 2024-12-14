@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Inter:wght@400;700&family=Lora:wght@400;700&display=swap");
+
+:root {
+  --family-monospace: "Inconsolata", monospace;
+  --family-sans-serif: "Inter", sans-serif;
+  --family-serif: "Lora", serif;
+
+  --font-size-heading-large: 64px;
+  --line-height-heading-large: 77px;
+
+  --font-size-heading-medium: 24px;
+  --line-height-heading-medium: 29px;
+
+  --font-size-heading-small: 20px;
+  --line-height-heading-small: 24px;
+
+  --font-size-heading-mobile: 32px;
+  --line-height-heading-mobile: 39px;
+
+  --font-size-body-medium: 18px;
+  --font-size-body-small: 14px;
+  --line-height-body-small: 17px;
+
+  --font-size-body-mobile: 16px;
+  --line-height-body-mobile: 20px;
+
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  --accent: #a445ed;
+  --alert: #ff5252;
+  --secondary: #757575;
+}
+
+body[data-theme="dark"] {
+  --color-text: #ffffff;
+  --colors-bg: #050505;
+  --colors-bg-input: #1f1f1f;
+  --color-line: #3a3a3a;
+
+  --shadow: 0px 5px 30px #a445ed;
+}
+
+body[data-theme="light"] {
+  --color-text: #2d2d2d;
+  --colors-bg: #ffffff;
+  --colors-bg-input: #f4f4f4;
+  --color-line: #e9e9e9;
+
+  --shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+body[data-font="Mono"] {
+  font-family: var(--family-monospace);
+}
+
+body[data-font="Sans Serif"] {
+  font-family: var(--family-sans-serif);
+}
+
+body[data-font="Serif"] {
+  font-family: var(--family-serif);
+}
+
+body {
+  color: var(--color-text);
+  font-weight: var(--font-weight-regular);
+  background-color: var(--colors-bg);
+}
